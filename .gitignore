@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.srt
+*.srt.bak
+*.log
+.DS_Store
+Thumbs.db
