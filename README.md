@@ -4,6 +4,8 @@ A small desktop GUI to **batch-synchronise `.srt` subtitles to the audio of thei
 
 Use it on a media library (Jellyfin, Plex, Emby, Kodi, …) when subtitles are a few seconds early or late, or when they drift over the course of an episode because they were timed for a release with a different framerate.
 
+![SubSync main window](docs/screenshot.png)
+
 ## Download
 
 **[⬇ Download subsync.pyw (latest release)](https://github.com/Kudery/SubSync/releases/latest/download/subsync.pyw)**
