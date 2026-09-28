@@ -4,6 +4,12 @@ A small desktop GUI to **batch-synchronise `.srt` subtitles to the audio of thei
 
 Use it on a media library (Jellyfin, Plex, Emby, Kodi, …) when subtitles are a few seconds early or late, or when they drift over the course of an episode because they were timed for a release with a different framerate.
 
+## Download
+
+**[⬇ Download subsync.pyw (latest release)](https://github.com/Kudery/SubSync/releases/latest/download/subsync.pyw)**
+
+All versions and release notes are on the [Releases page](https://github.com/Kudery/SubSync/releases). See [Requirements](#requirements) and [Installation](#installation-windows) below before the first start.
+
 ## Features
 
 - Point it at a folder, for example a whole library, a show or a single season. It scans all subfolders for `.srt` files and pairs each one with its video (`Movie.srt` or `Movie.en.srt` with `Movie.mkv`).
@@ -37,7 +43,7 @@ py -V:3.12 -m venv "$env:LOCALAPPDATA\SubSync\venv"
 & "$env:LOCALAPPDATA\SubSync\venv\Scripts\python.exe" -m pip install ffsubsync
 ```
 
-Download `subsync.pyw` and start it with a double-click.
+[Download `subsync.pyw`](https://github.com/Kudery/SubSync/releases/latest/download/subsync.pyw) and start it with a double-click.
 
 If you are on Python ≤ 3.13, you can skip the venv. The app offers to install ffsubsync into its own interpreter on first start.
 
@@ -63,6 +69,7 @@ Replace `C:\path\to` with the folder where you saved `subsync.pyw`.
 sudo apt install ffmpeg python3-tk python3.12-venv
 python3.12 -m venv ~/.local/share/SubSync/venv
 ~/.local/share/SubSync/venv/bin/python -m pip install ffsubsync
+curl -LO https://github.com/Kudery/SubSync/releases/latest/download/subsync.pyw
 python3 subsync.pyw
 ```
 
